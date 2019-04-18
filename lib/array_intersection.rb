@@ -7,7 +7,7 @@ def intersection(array1, array2)
   j = 0
 
   if array1 == nil || array2 == nil || array1 == [] || array2 == []
-    return []
+    return intersection
   else
     array1.each do |element1|
       array2.each do |element2|
